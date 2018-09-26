@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  background-color:black;
+  overflow:hidden;
+}
+
+#games{
+  background: url('wood.png');
+  overflow:hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border:3px groove rgba(230,230,230,0.7);
+  border-radius: 20px/10px;
+  height:96vh;
+  width:98%;
+}
+
+.fixed-top-right {
+  position: fixed;
+  top: 7px;
+  right: 1vw;;
+  height:auto;
+  width:18%;
+}
+
+#allthethings{
+  position:absolute;
+  margin:0 auto;
+  left:10%;
+  font-family: 'Roboto';
+  height:96%;
+  width:25%;
+  align-items: center;
+  background:black;
+  z-index:2;
+}
+
+#logo {
+  height:20vh;
+  width:100%;
+}
+
+#logo img {
+  height:15vh;
+  width:100%;
+}
+
+/* #single{
+  margin-bottom:2vh;
+  margin-bottom: 1vh;
+  background-color:transparent;
+  text-align:center;
+  font-size:4vh;
+  background-size: 1px 100%;
+  -webkit-transition:0.5s;
+  transition:0.5s;
+  color:white;
+  z-index:2;
+  cursor:pointer;
+} */
+
+/* #single:hover{
+  transform:scale(1.2);
+  background-color: transparent;
+  color:blue;
+  text-shadow: 2px 0px 2px purple;
+} */
+
+@media(max-width:750px) {
+  #allthethings {
+  width:40%;
+  font-size:2.5vh;
+  left:30%;
+  }
+}
+@media(max-width:480px) {
+  #allthethings {
+  width:50%;
+  font-size:1vh;
+  left:25%;
+  }
+}
+
+/*
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
+  width: 100px;
+  text-align: center;
+  height: 15px;
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: #2ecc71;
+}
+
+
+.btn-5 {
+  overflow: hidden;
+}
+
+.btn-5::after {
+  height: 100%;
+  left: -35%;
+  top: 0;
+  transform: skew(50deg);
+  transition-duration: 0.6s;
+  transform-origin: top left;
+  width: 0;
+}
+
+.btn-5:hover:after {
+  height: 100%;
+  width: 135%;
+}*/
+
+html *,
+html *:before,
+html *:after {
+  box-sizing: border-box;
+  transition: 0.5s ease-in-out;
+}
+html i, html em,
+html b, html strong,
+html span {
+  transition: none;
+}
+
+*:before,
+*:after {
+  z-index: -1;
+}
+
+.btn-11 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 30px;
+  max-width: 200px;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 3px;
+
+}
+
+@-webkit-keyframes criss-cross-left {
+  0% {
+    left: -20px;
+  }
+  50% {
+    left: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    left: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}
+
+@keyframes criss-cross-left {
+  0% {
+    left: -20px;
+  }
+  50% {
+    left: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    left: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}
+@-webkit-keyframes criss-cross-right {
+  0% {
+    right: -20px;
+  }
+  50% {
+    right: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    right: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}
+@keyframes criss-cross-right {
+  0% {
+    right: -20px;
+  }
+  50% {
+    right: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    right: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}
+.btn-11 {
+  position: relative;
+  color: #dadae5;
+}
+.btn-11:before, .btn-11:after {
+  position: absolute;
+  top: 50%;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: #dadae5;
+  border-radius: 50%;
+}
+.btn-11:before {
+  left: -20px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-11:after {
+  right: -20px;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+.btn-11:hover {
+  color: #000000;
+}
+.btn-11:hover:before {
+  -webkit-animation: criss-cross-left 0.8s both;
+          animation: criss-cross-left 0.8s both;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+.btn-11:hover:after {
+  -webkit-animation: criss-cross-right 0.8s both;
+          animation: criss-cross-right 0.8s both;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
