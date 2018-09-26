@@ -6,15 +6,15 @@ body{
 }
 
 #games{
-  background: url('wood.png');
+  background: url('bg.jpg');
   overflow:hidden;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border:3px groove rgba(230,230,230,0.7);
-  border-radius: 20px/10px;
+  border:1px groove rgba(230,230,230,0.7);
+  border-radius: 10px/10px;
   height:96vh;
-  width:98%;
+  width:99%;
 }
 
 .fixed-top-right {
@@ -26,6 +26,7 @@ body{
 }
 
 #allthethings{
+  opacity: 0.9;
   position:absolute;
   margin:0 auto;
   left:10%;
@@ -38,12 +39,13 @@ body{
 }
 
 #logo {
-  height:20vh;
+  height:22vh;
   width:100%;
 }
 
 #logo img {
-  height:15vh;
+  margin-top: 40px;
+  height:8vh;
   width:100%;
 }
 
