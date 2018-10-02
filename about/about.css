@@ -1,0 +1,42 @@
+body{
+
+  background-color: rgba(2,2,20,0.8);
+}
+.heading{
+  position:absolute;
+  top:10%;
+
+  height:25vh;
+  width:90%;
+
+  font-size: 7vh;
+  display:block;
+
+}
+.heading-1{
+  position:absolute;
+  left:10vh;
+
+  width:80%;
+
+  text-decoration: underline;
+  color:white;
+
+text-shadow:4px 4px 4px red,
+0px 8px 13px blue;
+}
+.text{
+  color: white;
+  text-align: justify;
+  padding-left: 10vh;
+  padding-right:10vh;
+  margin-right:2vh;
+  font-family: monospace;
+  font-size:1.8vh;
+
+}
+.about{
+  top:35%;
+  position:absolute;
+  left:2vh;
+}

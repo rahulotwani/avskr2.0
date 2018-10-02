@@ -1,0 +1,116 @@
+body{
+  background-color: black;
+  padding-left:6%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.one{
+    display: block;
+    float:left;
+    background-color: black;
+    height:99vh;
+    width:23vw;
+    border: 1px solid white;
+}
+
+.cont{
+    justify-content: center;
+    margin-top:15vh;
+}
+
+.card{
+
+    max-height:200px;
+    display: block;
+    float:left;
+    height: 70vh;
+    width:20vw;
+    /* ⬅ Size - Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+}
+
+    .card:last-of-type{
+        margin-right: 0px;
+        margin-bottom:5%;
+    }
+
+
+
+   .card:hover .card_Avatar{
+        border: 1px solid transparent;
+   }
+
+.card_Banner{
+    height: 100px;
+    width: inherit;
+    padding-top: 35px;
+    background-color: #FAFAFA;
+    background-size: cover;
+    background-position: center;
+}
+
+    .card:nth-child(1) .card_Banner{
+        /* ⬇ Photo by Alexandru Acea on Unsplash */
+        background-image: url("https://images.unsplash.com/photo-1537192830907-c60714675834?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f9f8ea79c488a95e95d35c10fad79b0d&auto=format&fit=crop&w=934&q=80");
+    }
+
+.card_Avatar{
+    height: 130px;
+    width: 130px;
+    margin: auto auto;
+    background-size: cover;
+    background-position: center;
+    background-color: #F1F1F1;
+    border: 3px solid #FFFFFF;
+    border-radius: 20%;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+    .card:nth-child(1) .card_Avatar{
+        background-image: url("fb.jpg");
+    }
+
+h3, h4, a, i{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+}
+
+    h3{
+        margin-top: 75px;
+        margin-bottom: 1px;
+        font-size: 20px;
+        color: #212121;
+    }
+
+
+@media screen and (max-width: 930px) {
+    .card{
+        width:28vw;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .card{
+        width:43vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card{
+        width:85vw;
+    }
+}

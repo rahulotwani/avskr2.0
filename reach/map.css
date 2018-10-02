@@ -1,0 +1,81 @@
+body{
+
+  background-color: blue;
+  overflow:hidden;
+}
+@font-face{
+  font-family:'vamp3d';
+  src: url('vamp3d.ttf');
+}
+.heading{
+  position:absolute;
+  top:5%;
+
+  height:15vh;
+  width:90%;
+  text-align: center;
+  font-size: 7vh;
+  color: white;
+  text-decoration: underline;
+
+}
+.container{
+  height:80vh;
+  width:100vw;
+  background-color: rgba(0,0,0,0.8);
+  z-index:-1;
+  position:absolute;
+  top:14%;
+}
+
+#map{
+  position:absolute;
+  top:32%;
+  left:15%;
+  border:1px solid red;
+
+  width:70vw;
+  height:30vw;
+  overflow:hidden;
+}
+
+.address{
+  position:absolute;
+  top:20%;
+  left:10%;
+  margin:0%;
+  padding: 0px;
+  width:80vw;
+  height:5vh;
+
+}
+p{
+  color:white;
+
+  font-size: 3vh;
+
+  text-align: center;
+}
+
+
+@media only screen and (max-width:1000px)
+{
+  #map{
+    position:absolute;
+    top:30vh;
+    left:5%;
+    border:1px solid red;
+
+    width:90%;
+    height:60vw;
+    overflow:hidden;
+  }
+  .address{
+    top:15%;
+
+  }
+  p{
+    font-size:2vh;
+  }
+
+}
