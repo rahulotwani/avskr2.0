@@ -17,6 +17,7 @@ html {
 /* ****** */
 
 .timeline-parcours {
+
    width:960px;
    height:auto;
    min-height:100px;
@@ -26,6 +27,7 @@ html {
    width:960px;
    margin:0 auto;
    height:auto;
+   padding-top: 5vh;
 
 }
 .timeline-section-tl {
@@ -145,4 +147,21 @@ tr hover::after{
     width:3vh;
   }
 
+}
+
+
+.header{
+  width:100vw;
+  height:15vh;
+  position: absolute;
+  left:0%;
+  top:0%;
+  z-index:-1;
+}
+.footer{
+  width:100vw;
+  height:35vh;
+  position:fixed;
+  bottom:0%;
+  left:0%;
 }

@@ -52,7 +52,7 @@ body {
     opacity: 0;
     transition: all .3s ease-in-out;
     color: whitesmoke;
-    
+
 }
 
 .info-icon {
@@ -86,7 +86,31 @@ body {
     }
 
     body {
-        overflow: scroll;
+        overflow:scroll;
         overflow-x: hidden;
     }
+
+}
+@media screen and  (max-width: 1000px) {
+.talks{
+  height:70%;
+  overflow:scroll;
+
+    }
+}
+
+
+.header{
+  width:100vw;
+  height:15vh;
+  position: fixed;
+  left:0%;
+  top:0%;
+}
+.footer{
+  width:100vw;
+  height:35vh;
+  position:fixed;
+  bottom:0%;
+  left:0%;
 }

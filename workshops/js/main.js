@@ -1,6 +1,7 @@
+if($(window).width() < 600){
+$('.event-description').css({'opacity': 0 ,'z-index':-1});
 
-
-
+}
 
   $('.work-1').click(function(){
     $('.event-description').css({'opacity': 1 , 'z-index':5});

@@ -114,3 +114,20 @@ h3, h4, a, i{
         width:85vw;
     }
 }
+
+
+
+.header{
+  width:100vw;
+  height:15vh;
+  position: absolute;
+  left:0%;
+  top:0%;
+}
+.footer{
+  width:100vw;
+  height:35vh;
+  position:fixed;
+  bottom:0%;
+  left:0%;
+}

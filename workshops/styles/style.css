@@ -5,8 +5,7 @@ body{
   background-repeat: no-repeat;
   background-size:auto;
   background-position: center;
-  border:3px groove rgba(230,230,230,0.7);
-  border-radius: 20px/10px;
+
   padding: 0;
   height:97vh;
   width:98%;
@@ -49,15 +48,6 @@ body{
   height:27%;
   /* border:1px solid white; */
 }
-
-.fixed-top-right {
-  position: fixed;
-  top: 7px;
-  right: 1vw;;
-  height:auto;
-  width:18%;
-
- }
 
 
 .event-description {
@@ -267,4 +257,21 @@ body{
   margin-left: auto;
   margin-right: auto;
   }
+}
+
+
+
+.header{
+  width:100vw;
+  height:15vh;
+  position: absolute;
+  left:0%;
+  top:0%;
+}
+.footer{
+  width:100vw;
+  height:35vh;
+  position:fixed;
+  bottom:0%;
+  left:0%;
 }
