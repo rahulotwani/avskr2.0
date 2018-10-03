@@ -164,10 +164,6 @@ body {
 }
 
 @media screen and ( max-width: 976px) {
-    .event-description {
-        overflow: scroll;
-    }
-
     .event-poster {
         position: absolute;
         top: 1%;
@@ -197,9 +193,11 @@ body {
         text-align: center;
         margin-bottom: 2%;
         padding-top: 0%;
+        overflow: scroll;
     }
 
     .info {
+        display: block;
         width: 80%;
         height:7%;
         border-top: 1px solid white;
