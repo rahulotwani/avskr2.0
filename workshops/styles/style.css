@@ -17,10 +17,10 @@ body{
 }
 .work{
   position:absolute;
-  top:3%;
+  top:10%;
   left:3%;
   width:22%;
-  height:90%;
+  height:80%;
   /* border:1px solid white;*/
 }
 
@@ -28,7 +28,7 @@ body{
   position:absolute;
   top:5%;
   left:15%;
-  width:85%;
+  width:70%;
   height:27%;
   /* border:1px solid white;*/
 }
@@ -36,7 +36,7 @@ body{
   position:absolute;
   top:37%;
   left:15%;
-  width:85%;
+  width:70%;
   height:27%;
   /* border:1px solid white;*/
 }
@@ -44,7 +44,7 @@ body{
   position:absolute;
   top:69%;
   left:15%;
-  width:85%;
+  width:70%;
   height:27%;
   /* border:1px solid white; */
 }
@@ -52,7 +52,7 @@ body{
 
 .event-description {
      position: fixed;
-     top: 20vh;
+     top: 15vh;
      left: 30vw;
      height: 70vh;
      width: 67vw;
@@ -140,6 +140,9 @@ body{
   .poster{
     margin-left:5%;
   }
+  .work-1{
+    width:70%;
+  }
 }
 
 
@@ -161,7 +164,7 @@ body{
     top:10%;
     left:1%;
     width:45%;
-    height:35%;
+    height:30%;
 
   }
   .work-2{
@@ -169,7 +172,7 @@ body{
     top:10%;
     left:49%;
     width:45%;
-    height:35%;
+    height:30%;
 
   }
 
@@ -178,7 +181,7 @@ body{
     top:50%;
     left:27.5%;
     width:45%;
-    height:35%;
+    height:30%;
 
   }
 
