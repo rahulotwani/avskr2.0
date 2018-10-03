@@ -18,7 +18,7 @@ body{
 
 .cont{
     justify-content: center;
-    margin-top:12%;
+    margin-top:5%;
 }
 
 .card{
@@ -136,17 +136,29 @@ h3, h4, a, i{
     .card{
         width:29vw;
     }
+    .cont{
+      margin-top:10%;
+    }
 }
 
 @media screen and (max-width: 660px) {
+
     .card{
         width:43vw;
+
+    }
+    .cont{
+      margin-top:12%;
     }
 }
 
 @media screen and (max-width: 450px) {
     .card{
         width:85vw;
+          margin-left:4vw;
+    }
+    .cont{
+      margin-top:20%;
     }
 }
 
